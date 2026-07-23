@@ -1,0 +1,1 @@
+DELETE FROM todo WHERE title='test db' and owner='Mookkiah, Mahendran';

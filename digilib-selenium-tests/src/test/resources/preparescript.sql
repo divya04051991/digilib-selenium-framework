@@ -1,0 +1,1 @@
+INSERT INTO todo values (nextval('todo_id_seq'),'test db','todo',null,1,'Mookkiah, Mahendran',current_date,'cjf.admin',null,null,1);

@@ -1,0 +1,18 @@
+[
+  {
+    "newMessageText": "Selenium Test Action",    
+    "messageType": "action"
+  },
+  {
+    "newMessageText": "Selenium Test Alert",
+    "messageType": "alert"
+  },
+  {
+    "newMessageText": "Selenium Test Information",
+    "messageType": "information"
+  },
+  {
+    "newMessageText": "Selenium Test Maintenance",
+    "messageType": "maintenance"
+  }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "user": {
+
+            "internal": "true",
+            "emailId": "Mahendran.mookkiah@cevalogistics.com"
+        },
+        "expectedResult": "SUCCESS"
+       },
+    {
+        "user": {
+            "internal": "true",
+            "emailId": "Mohammad.Weshah@Cevalogistics.com"
+        },
+        "expectedResult": "SUCCESS"
+            },
+    {
+        "user": {
+            "internal": "false",
+            "emailId": "Bryce.Millar@abcdef.com",
+            "firstName": "Millar",
+            "lastName": "Bryce",
+            "loginId": "Bryce123",
+            "password": "Bryce123!@#"
+
+        },
+        "expectedResult": "SUCCESS"
+                },
+    {
+        "user": {
+            "internal": "true",
+            "emailId": "Subanitha.Kulasekaran@Cevalogistics.com"
+        },
+        "expectedResult": "SUCCESS"
+                    }
+
+]

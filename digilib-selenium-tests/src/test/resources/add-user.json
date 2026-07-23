@@ -1,0 +1,103 @@
+[
+    {
+        "user": {
+            "internal": false,
+            "emailId": "Bryce.Millar@abcdef.com",
+            "firstName": "Millar",
+            "lastName": "Bryce",
+            "loginId": "Bryce123",
+            "password": "Bryce123!@#"
+        },
+        "expectedResult": "SUCCESS"
+  },
+    {
+        "user": {
+            "internal": "false",
+            "emailId": "John.Mercerabcdef.com",
+            "firstName": "Mercer",
+            "lastName": "johny",
+            "loginId": "John123",
+            "password": "Jhon!@#"
+        },
+        "expectedResult": "EMAILID-VALIDATION-ERROR"
+  },
+  {
+        "user": {
+            "internal":"" ,
+            "emailId": "Johny.Mercer@abcdef.com",
+            "firstName": "Mercer",
+            "lastName": "johny",
+            "loginId": "John123",
+            "password": "Jhon123!@#"
+        },
+        "expectedResult": "USERTYPE-MANDATORY-ERROR"
+  },
+    {
+        "user": {
+            "internal": false,
+            "emailId": "",
+            "firstName": "Mercer",
+            "lastName": "johny",
+            "loginId": "John123",
+            "password": "Jhon123!@#"
+        },
+        "expectedResult": "EMAILID-MANDATORY-ERROR"
+  },
+    {
+        "user": {
+            "internal": false,
+            "emailId": "John.Mercer@abcdef.com",
+            "firstName": "",
+            "lastName": "johny",
+            "loginId": "John123",
+            "password": "Jhon123!@#"
+        },
+        "expectedResult": "FIRSTNAME-MANDATORY-ERROR"
+  },
+    {
+        "user": {
+            "internal": false,
+            "emailId": "John.Mercer@abcdef.com",
+            "firstName": "Mercer",
+            "lastName": "",
+            "loginId": "John123",
+            "password": "Jhon123!@#"
+        },
+        "expectedResult": "LASTNAME-MANDATORY-ERROR"
+  },
+    {
+        "user": {
+            "internal": false,
+            "emailId": "John.Mercer@abcdef.com",
+            "firstName": "Mercer",
+            "lastName": "johny",
+            "loginId": "",
+            "password": "Jhon123!@#"
+        },
+        "expectedResult": "LOGINID-MANDATORY-ERROR"
+  },
+
+    {
+        "user": {
+            "internal": false,
+            "emailId": "John.Mercer@abcdef.com",
+            "firstName": "Mercer",
+            "lastName": "johny",
+            "loginId": "John123",
+            "password": ""
+        },
+        "expectedResult": "PASSWORD-MANDATORY-ERROR"
+  },
+
+    {
+        "user": {
+            "internal": false,
+            "emailId": "Johny.Mercer@abcdef.com",
+            "firstName": "Mercer",
+            "lastName": "johny",
+            "loginId": "John123",
+            "password": "Jhon!@#"
+        },
+        "expectedResult": "PASSWORD-VALIDATION-ERROR"
+		}
+]

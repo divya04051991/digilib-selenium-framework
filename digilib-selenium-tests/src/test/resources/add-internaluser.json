@@ -1,0 +1,34 @@
+[
+    {
+        "user": {
+
+            "internal": "true",
+            "emailId": "Mahendran.mookkiah@cevalogistics.com"
+        },
+        "expectedResult": "SUCCESS"
+       },
+    {
+        "user": {
+            "internal": "true",
+            "emailId": "Mohammad.Weshah@Cevalogistics.com"
+        },
+        "expectedResult": "SUCCESS"
+            },
+    {
+        "user": {
+
+            "internal": "true",
+            "emailId": "Bryce.Millar@abcdef.com"
+
+        },
+        "expectedResult": "INVALID-USER"
+                },
+    {
+        "user": {
+            "internal": "true",
+            "emailId": "subanitha.kulasekaran@shvintech.com"
+        },
+        "expectedResult": "SUCCESS"
+                    }
+
+]

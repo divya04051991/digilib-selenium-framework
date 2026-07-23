@@ -1,0 +1,1 @@
+INSERT INTO announcement VALUES (nextval('announcement_id_seq'::regclass),'Selenium Test Message',CURRENT_DATE - INTERVAL '2 day', CURRENT_DATE + INTERVAL '2 day', 'Information', current_date, 'Automation.user', null, null, 1);

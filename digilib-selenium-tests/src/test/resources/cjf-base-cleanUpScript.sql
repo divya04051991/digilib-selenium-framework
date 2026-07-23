@@ -1,0 +1,1 @@
+DELETE FROM aaf_user WHERE user_principal='Automation.user'

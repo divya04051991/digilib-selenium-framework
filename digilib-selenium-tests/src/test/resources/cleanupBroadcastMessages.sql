@@ -1,0 +1,1 @@
+DELETE FROM announcement WHERE message='Selenium Test Message';

@@ -1,0 +1,1 @@
+INSERT INTO aaf_user(user_principal,first_name,last_name,email,user_type,is_active,created_on,account_expiration_date, created_by,"version")  VALUES ('Automation.user','Automation','user','auto.user@mailinatior.com','E',true,current_date,current_date-30,'initial_load',0);

@@ -1,0 +1,54 @@
+[
+  {
+    "user": {
+      "internal": "true",
+      "emailId": "Mahendran.mookkiah@cevalogistics.com",
+      "roleNames": [
+        "AAF Admin",
+        "Todo Management",
+        "Product Manager"
+      ]
+    },
+    "expectedResult": "SUCCESS"
+  },
+  {
+    "user": {
+      "internal": "false",
+      "emailId": "John.Mercer@abcdef.com",
+      "firstName": "Mercer",
+      "lastName": "johny",
+      "loginId": "John123",
+      "password": "Jhon12!@#",
+      "roleNames": [
+        "AAF Admin"
+      ]
+    },
+    "expectedResult": "SUCCESS"
+  },
+  {
+    "user": {
+      "internal": "true",
+      "emailId": "Subanitha.Kulasekaran@Cevalogistics.com",
+      "roleNames": [
+        "AAF Admin",
+        "Todo Management"
+             ]
+    },
+    "expectedResult": "SUCCESS"
+  },
+  {
+    "user": {
+      "internal": false,
+      "emailId": "Bryce.Millar@abcdef.com",
+      "firstName": "Millar",
+      "lastName": "Bryce",
+      "loginId": "Bryce123",
+      "password": "Bryce123!@#",
+      "roleNames": [
+        "Todo Management",
+        "Product Manager"
+      ]
+    },
+    "expectedResult": "SUCCESS"
+  }
+]
